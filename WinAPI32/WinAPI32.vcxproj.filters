@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="GameNode.h" />
+    <ClInclude Include="MyFunc.h" />
+    <ClInclude Include="Object\Rect.h" />
+    <ClInclude Include="Object\Circle.h" />
+    <ClInclude Include="Singleton\SoundManager.h" />
+    <ClInclude Include="Singleton\SingletonBase.h" />
+    <ClInclude Include="Singleton\TimeManager.h" />
+    <ClInclude Include="Singleton\KeyManager.h" />
+    <ClInclude Include="Object\Shader.h" />
+    <ClInclude Include="Singleton\CameraManager.h" />
+    <ClInclude Include="Object\Image.h" />
+    <ClInclude Include="Singleton\ImageManager.h" />
+    <ClInclude Include="Singleton\WriteManager.h" />
+    <ClInclude Include="MiniGame\PlayGame.h" />
+    <ClInclude Include="MiniGame\Unit\Unit.h" />
+    <ClInclude Include="MiniGame\Unit\UnitManager.h" />
+    <ClInclude Include="MiniGame\Shop\Shop.h" />
+    <ClInclude Include="MiniGame\Map\Stage.h" />
+    <ClInclude Include="MiniGame\Player\Player.h" />
+    <ClInclude Include="MiniGame\Player\Enemy.h" />
+    <ClInclude Include="MiniGame\Unit\Tower.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinAPI32.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="Object\Rect.cpp" />
+    <ClCompile Include="Object\Circle.cpp" />
+    <ClCompile Include="Singleton\SoundManager.cpp" />
+    <ClCompile Include="Singleton\TimeManager.cpp" />
+    <ClCompile Include="Singleton\KeyManager.cpp" />
+    <ClCompile Include="Object\Shader.cpp" />
+    <ClCompile Include="Singleton\CameraManager.cpp" />
+    <ClCompile Include="Object\Image.cpp" />
+    <ClCompile Include="Singleton\ImageManager.cpp" />
+    <ClCompile Include="Singleton\WriteManager.cpp" />
+    <ClCompile Include="MiniGame\PlayGame.cpp" />
+    <ClCompile Include="MiniGame\Unit\Unit.cpp" />
+    <ClCompile Include="MiniGame\Unit\UnitManager.cpp" />
+    <ClCompile Include="MiniGame\Shop\Shop.cpp" />
+    <ClCompile Include="MiniGame\Map\Stage.cpp" />
+    <ClCompile Include="MiniGame\Player\Player.cpp" />
+    <ClCompile Include="MiniGame\Player\Enemy.cpp" />
+    <ClCompile Include="MiniGame\Unit\Tower.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Object\Basic.hlsl" />
+    <None Include="Object\Image.hlsl" />
+  </ItemGroup>
+</Project>
